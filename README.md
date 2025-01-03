@@ -1,9 +1,15 @@
-```markdown
 # CVMS Service
 
 This project sets up a Node.js environment to create a REST API for the CVMS application.
 
+## Table of Contents
+
+- [1. Set Up Your Node.js Environment](#1-set-up-your-nodejs-environment)
+- [2. Start the Server](#2-start-the-server)
+
 ## 1. Set Up Your Node.js Environment
+
+Follow the steps below to set up your Node.js environment:
 
 1. **Install Node.js**: If you haven’t already, download and install Node.js from [nodejs.org](https://nodejs.org/).
 
@@ -25,9 +31,7 @@ This project sets up a Node.js environment to create a REST API for the CVMS app
     - `pg`: PostgreSQL client for Node.js.
     - `dotenv`: To manage environment variables.
 
-4. **Get the Folder from the Project GitHub Repo**
-[here]()
-
+4. **Get the Folder from the Project GitHub Repo**: [here]()
 
 ---
 
@@ -37,7 +41,3 @@ To start the server, navigate to the project directory and run the following com
 
 ```bash
 node server.js
-```
-
-This will start the REST API server, and you can begin testing your endpoints.
-```
